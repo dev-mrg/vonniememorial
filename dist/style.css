@@ -209,6 +209,7 @@
         text-align: center;
         width: 840px;
         text-transform: uppercase;
+        background: rgba(55, 55, 55, 1);
         /* color: #333333; */
     }
     
