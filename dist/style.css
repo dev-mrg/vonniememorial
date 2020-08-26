@@ -20,12 +20,15 @@
         width: 100vw;
         background-size: cover;
         position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
     #slideshow {
         margin: 0 auto;
         padding-top: 50px;
-        height: 100vh;
+        height: 50vh;
         width: 100vw;
         background-color: transparent;
         box-sizing: border-box;
@@ -81,7 +84,7 @@
     
     .entire-content {
         margin: auto;
-        width: 18vw;
+        width: 290px;
         perspective: -10px;
         position: relative;
         padding-top: -20vh;
@@ -177,7 +180,7 @@
     
     #banner {
         width: 840px;
-        height: 250px;
+        height: 50vh;
         margin: 40px auto;
         overflow: hidden;
         position: relative;
@@ -185,6 +188,8 @@
         font-family: 'PT Sans', sans-serif;
         z-index: 20;
         margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
     }
     
     #banner img {
