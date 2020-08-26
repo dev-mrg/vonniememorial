@@ -27,7 +27,7 @@
     
     #slideshow {
         margin: 0 auto;
-        padding-top: 50px;
+        padding-top: 10px;
         height: 50vh;
         width: 100vw;
         background-color: transparent;
@@ -180,7 +180,7 @@
     
     #banner {
         width: 840px;
-        height: 50vh;
+        height: 40vh;
         margin: 20px auto;
         overflow: hidden;
         position: relative;
