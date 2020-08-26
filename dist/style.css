@@ -181,7 +181,7 @@
     #banner {
         width: 840px;
         height: 50vh;
-        margin: 40px auto;
+        margin: 20px auto;
         overflow: hidden;
         position: relative;
         text-align: center;
@@ -213,7 +213,6 @@
         text-align: center;
         width: 840px;
         text-transform: uppercase;
-        background: rgba(55, 55, 55, 1);
         /* color: #333333; */
     }
     
