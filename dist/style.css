@@ -25,16 +25,6 @@
         justify-content: space-between;
     }
     
-    #slideshow {
-        margin: 0 auto;
-        padding-top: 10px;
-        height: 50vh;
-        width: 100vw;
-        background-color: transparent;
-        box-sizing: border-box;
-        z-index: 10;
-    }
-    
     .slideshow-title {
         font-family: 'Allerta Stencil';
         font-size: 62px;
@@ -95,7 +85,7 @@
         width: 100%;
         position: absolute;
         float: right;
-        animation: rotar 55s infinite linear;
+        animation: rotar 155s infinite linear;
         transform-style: preserve-3d;
     }
     
@@ -113,43 +103,71 @@
     }
     
     .content-carrousel figure:nth-child(1) {
-        transform: rotateY(0deg) translateZ(300px);
+        transform: rotateY(0deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(2) {
-        transform: rotateY(40deg) translateZ(300px);
+        transform: rotateY(22.5deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(3) {
-        transform: rotateY(80deg) translateZ(300px);
+        transform: rotateY(45deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(4) {
-        transform: rotateY(120deg) translateZ(300px);
+        transform: rotateY(67.5deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(5) {
-        transform: rotateY(160deg) translateZ(300px);
+        transform: rotateY(90deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(6) {
-        transform: rotateY(200deg) translateZ(300px);
+        transform: rotateY(112.5deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(7) {
-        transform: rotateY(240deg) translateZ(300px);
+        transform: rotateY(135deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(8) {
-        transform: rotateY(280deg) translateZ(300px);
+        transform: rotateY(157.5deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(9) {
-        transform: rotateY(320deg) translateZ(300px);
+        transform: rotateY(180deg) translateZ(600px);
     }
     
     .content-carrousel figure:nth-child(10) {
-        transform: rotateY(360deg) translateZ(300px);
+        transform: rotateY(202.5deg) translateZ(600px);
+    }
+    
+    .content-carrousel figure:nth-child(11) {
+        transform: rotateY(225deg) translateZ(600px);
+    }
+    
+    .content-carrousel figure:nth-child(12) {
+        transform: rotateY(247.5deg) translateZ(600px);
+    }
+    
+    .content-carrousel figure:nth-child(13) {
+        transform: rotateY(270deg) translateZ(600px);
+    }
+    
+    .content-carrousel figure:nth-child(14) {
+        transform: rotateY(292.5deg) translateZ(600px);
+    }
+    
+    .content-carrousel figure:nth-child(15) {
+        transform: rotateY(315deg) translateZ(600px);
+    }
+    
+    .content-carrousel figure:nth-child(16) {
+        transform: rotateY(337.5deg) translateZ(600px);
+    }
+    
+    .content-carrousel figure:nth-child(16) {
+        transform: rotateY(360deg) translateZ(600px);
     }
     
     .shadow {
@@ -222,6 +240,7 @@
         font-size: 30px;
         padding: 5px;
         color: white;
+        font-family: 'Playball', cursive;
     }
     
     #name {
@@ -241,5 +260,20 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        background: rgba(55, 55, 55, .5);
+        background: rgba(55, 55, 55, .1);
+        box-shadow: 2px 1px 12px 2px rgba(55, 55, 55, .45), -2px -1px 12px -2px rgba(55, 55, 55, .45);
+    }
+    
+    #s-show-cont {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #slideshow {
+        padding-top: 10px;
+        height: 50vh;
+        background-color: transparent;
+        box-sizing: border-box;
+        z-index: 10;
     }

@@ -2,10 +2,10 @@ jQuery("#banner").mousemove(
     function(e) {
 
         var offset = jQuery(this).offset();
-        var xPos = e.pageX - offset.left - 650;
+        var xPos = e.pageX - offset.left - 150;
         var yPos = e.pageY - offset.top - 200;
 
-        var mouseXPercent = Math.round(xPos / jQuery(this).width() * 100);
+        var mouseXPercent = Math.round(xPos / jQuery(this).width() * 1000);
         var mouseYPercent = Math.round(yPos / jQuery(this).height() * 100);
 
         jQuery(this).children('img').each(
@@ -23,7 +23,7 @@ jQuery("#banner").mousemove(
                     'top': myY + 'px'
                 }
 
-                jQuery(this).animate({ left: -myX, top: -myY }, { duration: 20, queue: false, easing: 'linear' });
+                jQuery(this).animate({ left: -myX, top: -myY }, { duration: 590, queue: false, easing: 'linear' });
 
             }
         );

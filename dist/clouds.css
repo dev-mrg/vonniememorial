@@ -1,27 +1,13 @@
 #sky {
     position: absolute;
     width: 100vw;
-    height: 580px;
+    height: 70vh;
     background: transparent;
     position: relative;
     overflow: hidden;
     /* -webkit-animation: sky_background 50s ease-out infinite;
     -moz-animation: sky_background 50s ease-out infinite;
     -o-animation: sky_background 50s ease-out infinite; */
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0)
-}
-
-.moon {
-    background: url("http://i.imgur.com/wFXd68N.png");
-    position: absolute;
-    left: 0;
-    height: 300%;
-    width: 300%;
-    -webkit-animation: moon 50s linear infinite;
-    -moz-animation: moon 50s linear infinite;
-    -o-animation: moon 50s linear infinite;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0)
@@ -34,31 +20,31 @@
     top: 0;
     height: 100%;
     width: 300%;
-    -webkit-animation: cloud_one 50s linear infinite;
-    -moz-animation: cloud_one 50s linear infinite;
-    -o-animation: cloud_one 50s linear infinite;
+    -webkit-animation: cloud_one 150s linear infinite;
+    -moz-animation: cloud_one 150s linear infinite;
+    -o-animation: cloud_one 150s linear infinite;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0)
 }
 
 .clouds_two {
-    background: url("http://freepngimages.com/wp-content/uploads/2016/02/clouds-transparent-background-2.png");
+    background: url("http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140");
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 300%;
-    -webkit-animation: cloud_two 75s linear infinite;
-    -moz-animation: cloud_two 75s linear infinite;
-    -o-animation: cloud_two 75s linear infinite;
+    -webkit-animation: cloud_two 275s linear infinite;
+    -moz-animation: cloud_two 275s linear infinite;
+    -o-animation: cloud_two 275s linear infinite;
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0)
 }
 
 .clouds_three {
-    background: url("http://montanaflynn.me/lab/css-clouds/images/cloud_three.png");
+    background: url("http://www.scri8e.com/stars/PNG_Clouds/zc06.png?filename=./zc06.png&w0=800&h0s=289&imgType=3&h1=50&w1=140");
     position: absolute;
     left: 0;
     top: 0;
