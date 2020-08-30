@@ -2,8 +2,8 @@ jQuery("#banner").mousemove(
     function(e) {
 
         var offset = jQuery(this).offset();
-        var xPos = e.pageX - offset.left;
-        var yPos = e.pageY - offset.top;
+        var xPos = e.pageX - offset.left - 650;
+        var yPos = e.pageY - offset.top - 200;
 
         var mouseXPercent = Math.round(xPos / jQuery(this).width() * 100);
         var mouseYPercent = Math.round(yPos / jQuery(this).height() * 100);
@@ -13,7 +13,7 @@ jQuery("#banner").mousemove(
                 var diffX = jQuery('#Parallax').width() - jQuery(this).width();
                 var diffY = jQuery('#Parallax').height() - jQuery(this).height();
 
-                var myX = diffX * (mouseXPercent / 1500);
+                var myX = diffX * (mouseXPercent / 800);
 
                 var myY = diffY * (mouseYPercent / 1080);
 
@@ -23,7 +23,7 @@ jQuery("#banner").mousemove(
                     'top': myY + 'px'
                 }
 
-                jQuery(this).animate({ left: myX, top: myY }, { duration: 50, queue: false, easing: 'linear' });
+                jQuery(this).animate({ left: -myX, top: -myY }, { duration: 20, queue: false, easing: 'linear' });
 
             }
         );
