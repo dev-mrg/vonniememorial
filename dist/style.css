@@ -200,6 +200,7 @@
     #banner {
         width: 840px;
         min-height: 40vh;
+        max-height: 40vh;
         margin: 20px auto;
         overflow: hidden;
         position: relative;
