@@ -190,6 +190,8 @@
 #box2 {
     position: absolute;
     z-index: 114;
-    right: 0px;
+    right: 200px;
     top: -100px;
+    border: none;
+    box-shadow: none;
 }
