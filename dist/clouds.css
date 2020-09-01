@@ -181,3 +181,15 @@
         left: -200%
     }
 }
+
+#box1 {
+    position: absolute;
+    z-index: 114;
+}
+
+#box2 {
+    position: absolute;
+    z-index: 114;
+    right: 0px;
+    top: -100px;
+}
