@@ -8,9 +8,7 @@
     /* -webkit-animation: sky_background 50s ease-out infinite;
     -moz-animation: sky_background 50s ease-out infinite;
     -o-animation: sky_background 50s ease-out infinite; */
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0)
+    transform: translate3d(0, 0, 0)
 }
 
 .clouds_one {
@@ -20,12 +18,8 @@
     top: 0;
     height: 100%;
     width: 300%;
-    -webkit-animation: cloud_one 150s linear infinite;
-    -moz-animation: cloud_one 150s linear infinite;
-    -o-animation: cloud_one 150s linear infinite;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0)
+    animation: cloud_one 150s linear infinite;
+    transform: translate3d(0, 0, 0)
 }
 
 .clouds_two {
@@ -35,12 +29,8 @@
     top: 0;
     height: 100%;
     width: 300%;
-    -webkit-animation: cloud_two 275s linear infinite;
-    -moz-animation: cloud_two 275s linear infinite;
-    -o-animation: cloud_two 275s linear infinite;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0)
+    animation: cloud_two 275s linear infinite;
+    transform: translate3d(0, 0, 0)
 }
 
 .clouds_three {
@@ -50,12 +40,8 @@
     top: 0;
     height: 100%;
     width: 300%;
-    -webkit-animation: cloud_three 100s linear infinite;
-    -moz-animation: cloud_three 100s linear infinite;
-    -o-animation: cloud_three 100s linear infinite;
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0)
+    animation: cloud_three 100s linear infinite;
+    transform: translate3d(0, 0, 0);
 }
 
 @-webkit-keyframes sky_background {
