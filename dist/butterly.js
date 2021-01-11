@@ -9,3 +9,5 @@ function box1() {
     document.getElementById("x-val").innerHTML = "TOP = " + y + " px";
     document.getElementById("y-val").innerHTML = "LEFT = " + z + " px";
 };
+
+box1();
